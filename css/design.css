@@ -1,0 +1,108 @@
+/* (c) www.rusbible.ru 2016  */
+body {
+background-color:#EDF7C8;
+font-family:"Times New Roman", Times, serif;
+font-face:"Times New Roman";
+filter:none;
+}
+
+table.main td.lb {
+background-image:url(../img/ramkals.gif);
+background-color:#FFFEEB;
+}
+
+table.main td.rb {
+background-image:url(../img/ramkars.gif);
+background-color:#FFFEEB;
+}
+
+table.main tr.sainttext td.lb {
+background-image:url(../img/ramka.gif);
+}
+
+table.main tr.sainttext td.rb {
+background-image:url(../img/ramkar.gif);
+}
+
+table.main tr.textsep td {
+height:49px;
+margin:0;
+padding:0;
+}
+
+table.main tr.textsep td .separate {
+margin:0;
+}
+
+table.main tr.textsep td.lb {
+background-image:url(../img/ramkalb.gif);
+background-repeat:no-repeat;
+background-position:0 0;
+}
+
+table.main tr.textsep td.rb {
+background-image:url(../img/ramkarb.gif);
+background-repeat:no-repeat;
+background-position:0 0;
+}
+
+.content .separate {
+width:100%;
+height:35px;
+border:none;
+background-image:url(../img/otbiv.gif);
+background-repeat:no-repeat;
+background-position:center;
+margin-top:10px;
+}
+
+.hoverline .i {
+background-color:#EDEDFF;
+}
+
+.book .hlight .m .flag,.book .hlight .mo .mc {
+background-color:#EDF7C8!important;
+}
+
+.pages .p {
+background-color:#FFF;
+}
+
+*html .pages .ps {
+filter:chroma(color=#FFFEEB);
+border-color:#FFFEEB;
+}
+
+.page-index #logo {
+width:409px;
+height:200px;
+max-height:200px;
+background:url(../img/voznesenie.gif) no-repeat center center;
+border:none;
+}
+
+.page-index #nz {
+width:197px;
+height:32px;
+max-height:32px;
+max-width:197px;
+background:url(../img/nz.gif) no-repeat center center;
+border:none;
+}
+
+.page-index #vz {
+width:211px;
+height:32px;
+max-height:32px;
+max-width:211px;
+background:url(../img/vz.gif) no-repeat center center;
+border:none;
+}
+
+table.main .content,table.femu td.femucontent {
+background-color:#FFFEEB;
+}
+
+.hlight .i,.hoverline.hlight .i,.pages .p.hlight {
+background-color:#FFE396!important;
+}

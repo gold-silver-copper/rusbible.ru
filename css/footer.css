@@ -1,0 +1,135 @@
+/* (c) www.rusbible.ru 2016  */
+table.foot {
+width:100%;
+border-top:dotted 1px gray;
+}
+
+table.foot td {
+vertical-align:top;
+padding-top:10px;
+}
+
+table.foot .fl {
+width:110px;
+text-align:left;
+word-wrap:break-word;
+}
+
+table.foot .fr {
+width:110px;
+text-align:right;
+word-wrap:break-word;
+}
+
+table.foot .fc {
+text-align:center;
+}
+
+table.foot .next,table.foot .prev {
+display:inline;
+background-color:transparent;
+font-weight:700;
+padding:1px 2px 1px 3px;
+}
+
+table.foot span.next,table.foot span.prev {
+color:gray;
+}
+
+table.femu {
+width:100%;
+border:none;
+table-layout:fixed;
+margin:0;
+}
+
+.footer {
+position:fixed;
+width:100%;
+height:60px;
+z-index:10;
+bottom:0;
+left:0;
+padding:0;
+}
+
+.content {
+padding:0 0 70px;
+}
+
+table.femu td.femulb,table.femu td.femurb {
+width:21px;
+}
+
+table.femu td.femucontent {
+width:510px;
+padding-left:7px;
+padding-right:7px;
+text-align:center;
+}
+
+.pages {
+line-height:140%;
+}
+
+.pages .p {
+display:inline;
+border:solid 1px #d0d0d0;
+padding-left:3px;
+padding-right:3px;
+margin-right:5px;
+margin-left:0;
+font-weight:700;
+}
+
+.pages .p.lp {
+margin-left:5px;
+}
+
+.pages .p.rp {
+margin-right:5px;
+}
+
+.pages .ps {
+display:none;
+padding-left:3px;
+padding-right:3px;
+margin-right:5px;
+margin-left:0;
+font-weight:700;
+border:solid 1px transparent;
+background-color:transparent;
+cursor:pointer;
+}
+
+.pages i {
+display:inline-block;
+width:0;
+}
+
+.pages a.p:hover {
+text-decoration:underline;
+color:#00008B;
+}
+
+.pages .chapnote {
+border:solid 1px red;
+}
+
+.pages .ctrl {
+font-size:8pt;
+padding:5px;
+}
+
+table.femu td.femul,table.femu td.femur {
+width:auto;
+}
+
+table.femu td.femul .spacer,table.femu td.femur .spacer {
+width:150px;
+}
+
+.pages a.p,.pages a.p:visited {
+color:#00008B;
+text-decoration:none;
+}

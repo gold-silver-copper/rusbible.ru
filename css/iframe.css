@@ -1,0 +1,49 @@
+/* (c) www.rusbible.ru 2016  */
+body {
+font-size:8pt;
+font-family:Arial;
+background-color:transparent;
+overflow-x:hidden;
+margin:0;
+padding:0;
+}
+
+h1 {
+font-weight:700;
+font-size:11pt;
+}
+
+h2 {
+font-size:10pt;
+}
+
+table.main {
+text-align:left;
+width:auto;
+height:100%;
+display:table;
+margin:0;
+padding:0;
+}
+
+.footer {
+display:none!important;
+}
+
+table.main td.content {
+width:auto;
+background-color:transparent;
+}
+
+#commentaries.infoblock h2 {
+font-size:9pt;
+padding:5px;
+}
+
+.content {
+padding-bottom:0;
+}
+
+table.main td.l,table.main td.r,table.main td.lb,table.main td.rb,.path,.separate {
+display:none;
+}

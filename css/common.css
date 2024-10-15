@@ -1,0 +1,108 @@
+/* (c) www.rusbible.ru 2016  */
+@media all and (min-width:1px){.mediatest{position:absolute}
+}
+html, body, .scrollable{margin:0;padding:0;height:100%;width:100%;}
+div{border:none;}
+img{border:none;}
+li{list-style:square;}
+table.main{width:100%;margin:0px;border:none;height:100%;table-layout:fixed;}
+table.main td.lb,table.main td.rb{width:21px;background-repeat:repeat-y;}
+table.main td.lb{background-position:left center;}
+table.main td.rb{background-position:right center;}
+table.main td.content{width:510px;padding-left:7px;padding-right:7px;text-align:center;vertical-align:top;}
+table.main td.l{width:auto;text-align:right;overflow:hidden;}
+table.main td.r{width:auto;text-align:left;overflow:hidden;}
+table.main td.l .spacer{width:150px;}
+table.main td.r .spacer{width:150px;}
+.sitefooter{font-size:small;width:150px;text-align:center;padding-bottom:30px;display:inline-block;z-index:11;position:relative;}
+.i{display:block;width:auto;padding-left:5px;padding-right:5px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;background-color:transparent;}
+.bookcap{text-align:left;}
+.infoblockheader{display:block;position:relative;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.book{margin-top:0px;padding-top:10px;padding-bottom:15px;}
+.book.primary{margin-top:0px;border-top:none;}
+.bookheader,.bookcapheader,.groupcapheader{display:block;position:relative;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+h1{width:100%;text-align:center;word-wrap:break-word;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+h1,h2{margin:0;padding-top:5px;padding-bottom:5px;}
+h1{padding-top:10px;}
+#commentaries.infoblock h2{padding:25px;color:darkgray;font-size:14pt;display:block;width:auto;text-align:center;border-top:dotted 1px gray;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.path{font-size:small;width:100%;text-align:center;}
+.path .p{font-weight:bold;}
+.path span.p{text-decoration:none;color:black;}
+.path a.p{text-decoration:underline;color:blue;}
+.chapheader{display:block;position:relative;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.chapter h2{text-align:left;padding-top:10px;}
+.cn{color:gray;}
+.chapter .text{text-align:left;}
+.text .tl{display:block;position:relative;padding:0px;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.text .tl.ci .i{color:darkblue;font-style:italic;padding-top:10px;}
+.text .tl.nc .i{padding-top:10px;}
+.text .tl.nq .i{font-weight:bold;padding-top:10px;}
+.commentary.book .text .l .i{padding-left:10px;padding-bottom:5px;padding-top:5px;}
+.book .text .l .i{padding-left:5px;padding-bottom:0px;padding-top:0px;}
+.tl .n{color:darkred;display:inline;vertical-align:baseline;font-size:80%;}
+.tl .t{display:inline;}
+.t a.ref{color:darkblue;text-decoration:none;font-style:normal;}
+.i:hover .t a.ref{text-decoration:underline;color:blue;}
+.i:hover .t i{color:#0F0157;}
+.ts{display:inline;}
+.mo{font-size:10pt;padding-right:2px;padding-left:40px;display:none;position:absolute;left:100%;top:0px;z-index:10;}
+.mo .c{width:180px;padding:5px;padding-left:10px;border-top:dotted 1px gray;text-align:left;}
+.pinmore .mo{display:block !important;z-index:5;}
+.m{left:-145px;position:absolute;top:3px;margin:0;text-align:right;font-size:10pt;padding:2px;padding-right:40px;display:none;width:110px;height:40px;}
+.mo dt{width:100%;font-weight:bold;cursor:pointer;font-size:11pt;}
+.mo dd{margin:0;text-indent:0;padding:5px;padding-top:3px;padding-right:0px;}
+.mo dl{margin:0;margin-top:2px;}
+.mo dt span{color:blue;display:none;}
+.mo dt:hover{color:red;}
+.mo{color:gray;}
+.s:hover .m .flag{color:black;}
+.s:hover .cite{text-decoration:underline;color:blue;cursor:pointer;}
+.s:hover .mo{display:block;}
+.s:hover .m{display:block;}
+.hoverline .mo{color:black;}
+.hoverline .mo{display:block !important;}
+.hoverline .m{display:block !important;}
+.pinmore .m{display:block !important;z-index:5;}
+.m a.here{visibility:hidden;}
+.hoverline .m a.here{visibility:visible !important;}
+.s:hover .m a.here{visibility:visible;}
+.i li, .mo li{list-style:none;list-style-type:none;background:url(../img/listitem.gif) no-repeat left center;padding-left:10px;list-style-position:outside;position:relative;}
+.i li.lisep,.mo li.lisep{margin-top:10px;background:none;padding-left:0px;}
+a:hover{color:red;}
+a.inner , .text .t:hover .inner , .text .hlight .t .inner{color:blue;text-decoration:underline;}
+a.inner:visited{color:gray;}
+a.inner:hover , .inner:hover , .text .t:hover .inner:hover{color:red;text-decoration:underline;}
+.text .t .inner{color:inherit;text-decoration:none;}
+.inline , .text .t:hover .inline , .text .hlight .t .inline{cursor:pointer;color:blue;border-bottom:dotted 1px blue;text-decoration:none;}
+a.inline:visited{color:gray;border-bottom:dotted 1px gray;}
+.text .t .inline{color:inherit;border-bottom:solid 1px transparent;}
+.inline:hover , .text .t:hover .inline:hover{color:red;border-bottom:dotted 1px red;}
+a.outer{color:blue;text-decoration:underline;background-image:url(../img/linksmall.gif);background-repeat:no-repeat;background-position:right top;padding-right:11px;vertical-align:top;display:inline;}
+a.outer:visited{color:gray;}
+a.outer:hover{color:red;background-image:url(../img/linksmallhover.gif);}
+a.master, a.master-mirror{color:blue;text-decoration:underline;vertical-align:top;}
+a.master{padding-right:11px;background-image:url(../img/linksmall.gif);background-repeat:no-repeat;background-position:right top;display:inline-block;}
+a.master:visited ,a.master-mirror:visited{color:#343460;}
+a.master:hover{color:red;background-image:url(../img/linksmallhover.gif);background-repeat:no-repeat;background-position:right top;}
+a.master-mirror:hover{color:red;}
+.book .note ,.book .noted ,.book .text .t:hover .noted ,.book .text .hlight .t .noted{color:darkred;background-color:transparent;text-decoration:none;font-size:80%;}
+.book .note:hover,.book .noted:hover{text-decoration:underline;}
+.book .note,.book .noted{height:0;line-height:1;vertical-align:baseline;_vertical-align:bottom;position:relative;bottom:0.6ex;padding-left:1px;padding-right:1px;}
+.text .t .noted{text-decoration:none;}
+.text .t:hover .noted:hover ,.text .t:hover .noted ,.text .t .noted:hover ,.text .nb:hover .note{color:darkred;background-color:transparent;text-decoration:underline;}
+.high, a.high:visited{background-color:darkred !important;color:white !important;}
+a.ref{height:16px;}
+a.ref .bp{width:16px;height:15px;margin-right:3px;border:0;background-image:url(../img/picto/booksmall.gif);}
+a.ref .ar{width:11px;height:11px;background-image:url(../img/linksmall.gif);background-repeat:no-repeat;background-position:right top;margin-left:2px;border:0;display:inline-block;}
+a.ref .ar:hover{background-image:url(../img/linksmallhover.gif);}
+.sample.bp{display:inline-block;margin-top:1px;width:10px;height:9px;background-image:url(../img/picto/bookverysmalli.png);}
+a.ref.here .bp{width:11px;height:12px;background-image:url(../img/picto/hand_property_small_left.gif);}
+a.ref.here{color:gray;}
+a.ref.here:hover{color:blue;}
+a.ref.bk-c .bp{margin-top:2px;width:12px;height:11px;background-image:url(../img/picto/booksmall2.gif);}
+a.ref.bk-v .bp{margin-top:3px;width:10px;height:9px;background-image:url(../img/picto/bookverysmall.gif);}
+.scm{font-size:small;}
+.nowrap{white-space:nowrap;}
+.mirrorhome{display:none;}
+.tipsy p{padding:5px;margin:0;}
+.trans-sinodal .mo li.sel-trans-sinodal, .trans-slavic .mo li.sel-trans-slavic, .paging-parts .mo li.sel-paging-parts, .paging-paged .mo li.sel-paging-paged, .paging-all .mo li.sel-paging-all{background:url(../img/listitemsel.gif) no-repeat left center;}

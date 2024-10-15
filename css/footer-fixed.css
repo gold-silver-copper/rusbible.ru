@@ -1,0 +1,17 @@
+/* (c) www.rusbible.ru 2016  */
+.footer {
+position:relative!important;
+}
+
+.content {
+padding-bottom:0!important;
+}
+
+table.femu td.femucontent {
+width:100%;
+padding:0;
+}
+
+table.femu .femul,table.femu .femulb,table.femu .femur,table.femu .femurb,body.paging-all table.foot .next,body.paging-all table.foot .prev {
+display:none;
+}

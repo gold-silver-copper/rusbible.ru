@@ -1,0 +1,89 @@
+/* (c) www.rusbible.ru 2016  */
+.psep{background-image:url(../img/picto/ui-icons.png);background-repeat:no-repeat;background-position:-35px -18px;width:10px;height:10px;padding:0;}
+.page-book-primary .commentary.book .separate ,.page-book-commentary .primary.book .separate{display:none;}
+.uncollapse{display:none;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;color:darkgray;text-align:center;cursor:pointer;font-size:small;padding:5px;}
+@media (max-width:580px){table.main td.l{width:16px !important;}
+table.femu td.femul{width:16px !important;}
+table.main td.l .sitefooter{display:none;}
+table.main td.content{width:auto}
+table.femu td.femucontent{width:auto;}
+table.main td.lb{width:3px !important;}
+table.femu td.femulb{width:3px !important;}
+table.main td.rb{width:3px !important;}
+table.femu td.femurb{width:3px !important;}
+.m{left:-125px;}
+table.foot .fl{width:20px;}
+table.foot .fr{width:20px;}
+table.foot .fl .prev span, table.foot .fr .next span{display:none;}
+h1{font-size:18pt;}
+table.main td.r{width:16px !important;}
+table.femu td.femur{width:16px !important;}
+.mo{font-size:10pt;padding:10px;padding-left:20px;margin-top:7px;margin-left:5px;display:none;position:relative;left:0;top:0px;width:100%;z-index:10;border-left:dotted 1px gray;}
+.mo .c{width:100%;padding:0;border:none;text-align:left;}
+.mo .c{background-color:transparent;}
+}
+body.scale0 table.main td.l{width:16px !important;}
+body.scale0 table.femu td.femul{width:16px !important;}
+body.scale0 table.main td.lb{width:3px !important;}
+body.scale0 table.femu td.femulb{width:3px !important;}
+body.scale0 table.main td.rb{width:3px !important;}
+body.scale0 table.femu td.femurb{width:3px !important;}
+body.scale0 .m{left:-125px;}
+body.scale0 table.foot .fl{width:20px;}
+body.scale0 table.foot .fr{width:20px;}
+body.scale0 table.foot .fl .prev span,body.scale0 table.foot .fr .next span{display:none;}
+body.scale0 h1{font-size:18pt;}
+body.scale0 table.main td.l .sitefooter{display:none;}
+body.scale0 table.main td.content{width:auto;}
+body.scale0 table.femu td.femucontent{width:auto;}
+body.scale0 table.main td.r{width:16px !important;}
+body.scale0 table.femu td.femur{width:16px !important;}
+body.scale0 .mo{font-size:10pt;padding:10px;padding-left:20px;margin-top:7px;margin-left:5px;display:none;position:relative;left:0;top:0px;width:100%;z-index:10;border-left:dotted 1px gray;}
+body.scale0 .mo .c{width:100%;padding:0;border:none;text-align:left;}
+body.scale0 .mo .c{background-color:transparent;}
+@media (min-width:580px) and (max-width:840px){table.main td.l{width:30px !important;}
+table.femu td.femul{width:30px !important;}
+table.main td.l .sitefooter{display:none;}
+}
+body.scale580 table.main td.l{width:30px !important;}
+body.scale580 table.femu td.femul{width:30px !important;}
+body.scale580 table.main td.l .sitefooter{display:none;}
+@media (min-width:840px) and (max-width:950px){table.main td.content{width:510px;}
+table.femu td.femucontent{width:510px;}
+table.main td.r{width:240px;}
+table.femu td.femur{width:240px;}
+table.main td.l .sitefooter{display:none;}
+}
+body.scale840 table.main td.content{width:510px;}
+body.scale840 table.femu td.femucontent{width:510px;}
+body.scale840 table.main td.r{width:240px;}
+body.scale840 table.femu td.femur{width:240px;}
+body.scale840 table.main td.l .sitefooter{display:none;}
+@media (min-width:950px) and (max-width:1050px){table.main td.content{width:610px;}
+table.femu td.femucontent{width:610px;}
+table.main td.r{width:240px;}
+table.femu td.femur{width:240px;}
+}
+body.scale950 table.main td.content{width:610px;}
+body.scale950 table.femu td.femucontent{width:610px;}
+body.scale950 table.main td.r{width:240px;}
+body.scale950 table.femu td.femur{width:240px;}
+@media (min-width:1050px) and (max-width:1200px){table.main td.content{width:710px;}
+table.femu td.femucontent{width:710px;}
+table.main td.r{width:240px;}
+table.femu td.femur{width:240px;}
+}
+body.scale1050 table.main td.content{width:710px;}
+body.scale1050 table.femu td.femucontent{width:710px;}
+body.scale1050 table.main td.r{width:240px;}
+body.scale1050 table.femu td.femur{width:240px;}
+@media (min-width:1200px) and (max-width:1300px){table.main td.content{width:710px;}
+table.femu td.femucontent{width:710px;}
+}
+body.scale1200 table.main td.content{width:710px;}
+body.scale1200 table.femu td.femucontent{width:710px;}
+@media (min-width:1300px){table.main td.content{width:810px;}
+table.femu td.femucontent{width:810px;}
+}
+body.scale1300 table.main td.content{width:810px;}
+body.scale1300 table.femu td.femucontent{width:810px;}

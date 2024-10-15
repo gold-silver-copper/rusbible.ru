@@ -1,0 +1,87 @@
+/* (c) www.rusbible.ru 2016  */
+@import url("design.css");
+@import url("common.css");
+@import url("screen.css");i li{width:90%;white-space:nowrap;}
+.go{width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;text-align:right;}
+.counters{text-align:center;}
+.bookcap .i li{margin-left:20px;}
+table.main td.content{width:465px;padding-bottom:30px;}
+.page-index .mo dl.mchapters dt span, .page-index .mo dl.mtrans dt span, .page-index .mo dl.ib-download dt span{visibility:visible;}
+.page-index .mo dl.mchapters dd, .page-index .mo dl.mtrans dd, .page-index .mo dl.ib-download dd{display:none;}
+.page-index .mo dl.msearch dd{margin-left:0;padding-left:0;}
+.page-index .mo dl.msearch{margin-top:7px;}
+.vchapters dd a{display:inline-block;width:17px;font-size:9pt;text-align:right;}
+.mo .c{width:210px;}
+h1{margin-bottom:10px;}
+h1 span{display:none;}
+#groupcap-logo .mo .c{border-top:none;}
+.ib dt{color:black;}
+.ib dt span{display:none;}
+.ib dd{margin:0;margin-left:3px;text-indent:0;padding-top:2px;color:gray;}
+.ib dd:hover{color:black;}
+.iba{font-size:10pt;width:150px;display:block;text-align:center;margin:10px;}
+@media (max-width:580px){table.main td.l{width:10px !important;}
+table.main td.l .sitefooter{display:none;}
+table.main td.content{width:auto}
+table.main td.lb{width:3px !important;}
+table.main td.rb{width:3px !important;}
+.m{left:-125px;}
+table.main td.r{width:10px !important;}
+.mo{font-size:10pt;padding:10px;padding-left:20px;margin-top:7px;margin-left:15px;display:none;position:relative;left:0;top:0px;width:auto;z-index:10;border-left:dotted 1px gray;}
+.mo .c{width:auto;padding:0;border:none;text-align:left;}
+.page-index #logo{width:100%;height:auto;background-size:cover;}
+.page-index #nz{width:100%;height:auto;background-size:100%;}
+.page-index #vz{width:100%;height:auto;background-size:100%;}
+.mo .c{background-color:transparent;}
+.bookcap .i li{margin-left:5px;}
+.i{padding:0}
+.page-index .mo dl.msearch{margin-top:2px;}
+#groupcap-logo .mo{border-left:none;}
+}
+body.scale0 table.main td.l{width:10px !important;}
+body.scale0 table.main td.lb{width:3px !important;}
+body.scale0 table.main td.rb{width:3px !important;}
+body.scale0 .m{left:-125px;}
+body.scale0 table.main td.l .sitefooter{display:none;}
+body.scale0 table.main td.content{width:auto;}
+body.scale0 table.main td.r{width:10px !important;}
+body.scale0 .page-index #logo{width:100%;height:auto;background-size:cover;}
+body.scale0 .page-index #nz{width:100%;height:auto;background-size:100%;}
+body.scale0 .page-index #vz{width:100%;height:auto;background-size:100%;}
+body.scale0 .i{padding:0}
+body.scale0 .mo dl.msearch{margin-top:2px;}
+body.scale0 #groupcap-logo .mo{border-left:none;}
+body.scale0 .mo{font-size:10pt;padding:10px;padding-left:20px;margin-top:7px;margin-left:15px;display:none;position:relative;left:0;top:0px;width:auto;z-index:10;border-left:dotted 1px gray;}
+body.scale0 .mo .c{width:auto;padding:0;border:none;text-align:left;}
+body.scale0 .mo .c{background-color:transparent;}
+@media (min-width:580px) and (max-width:780px){table.main td.l{width:30px;}
+table.main td.content{width:450px;}
+table.main td.r{width:auto;}
+table.main td.l .sitefooter{display:none;}
+}
+body.scale580 table.main td.l{width:30px;}
+body.scale580 table.main td.content{width:450px;}
+body.scale580 table.main td.r{width:auto;}
+body.scale580 table.main td.l .sitefooter{display:none;}
+@media (min-width:780px) and (max-width:890px){table.main td.l{width:auto;}
+table.main td.content{width:450px;}
+table.main td.r{width:240px;}
+table.main td.l .sitefooter{display:none;}
+}
+body.scale780 table.main td.l{width:auto;}
+body.scale780 table.main td.content{width:450px;}
+body.scale780 table.main td.r{width:240px;}
+body.scale780 table.main td.l .sitefooter{display:none;}
+@media (min-width:890px) and (max-width:1040px){table.main td.l{width:auto;}
+table.main td.content{width:510px;}
+table.main td.r{width:240px;}
+}
+body.scale890 table.main td.l{width:auto;}
+body.scale890 table.main td.content{width:510px;}
+body.scale890 table.main td.r{width:240px;}
+@media (min-width:1040px){table.main td.content{width:510px;}
+}
+body.scale1040 table.main td.content{width:510px;}
+.ya-site-form{width:130px;padding:0;margin:0;}
+.ya-site-form__search-input{padding:0 !important;}
+#hbutton{width:80px;height:15px;background-image:url(../img/ru-80x15-XP-orange.gif);padding:30 5 30 5;border:0;}

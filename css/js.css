@@ -1,0 +1,30 @@
+/* (c) www.rusbible.ru 2016  */
+.s:hover .m a.here {
+visibility:hidden;
+}
+
+.page-index .mo dt span {
+display:inline;
+visibility:hidden;
+}
+
+.page-index .mo dd {
+display:block;
+visibility:visible;
+}
+
+.uncollapse {
+display:block;
+}
+
+.s:hover .mo,.s:hover .m,.page-book .mo dd,.page-iemenu .scriptcheck,.page-index ul.sublist,.collapsed,.page-download .booklist {
+display:none;
+}
+
+.page-book .mo dt span,.page-tools .iemenusample {
+display:inline;
+}
+
+.pinmore .mo,.pinmore .m {
+display:block!important;
+}
